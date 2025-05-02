@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій Telegram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+        }
+        .description {
+            font-size: 16px;
+            color: #333;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #0088cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            margin: 10px;
+        }
+        .btn:hover {
+            background-color: #006699;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Приєднуйтесь до мого Telegram!</h1>
+        <p class="description">Канал <strong>@privatbud</strong> — це ваш надійний помічник у світі приватного будівництва. Тут ви знайдете поради, інструкції, ідеї для дому та саду, а також корисну інформацію про сучасні матеріали та технології.</p>
+        <a class="btn" href="https://t.me/privatbud" target="_blank">Перейти в Telegram</a>
+        <a class="btn" href="https://www.tiktok.com/@promaterial_?_t=ZM-8w17fJVloyF&_r=1" target="_blank">TikTok</a>
+        <a class="btn" href="https://www.instagram.com/romazhuk_privatbud?igsh=Zmc1Mzh3NTBhbHYy&utm_source=qr" target="_blank">Instagram</a>
+    </div>
+</body>
+</html>
